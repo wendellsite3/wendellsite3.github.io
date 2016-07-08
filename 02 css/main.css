@@ -1,0 +1,534 @@
+body {
+  margin: 0;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  font-size: 13px;
+  font-family: "Fira-Sans" , sans-serif, Arial;
+  letter-spacing: 0px;
+  color: #2F4F4F;
+  background: #F0F0F0;
+  padding-bottom: 5px;
+}
+
+body a {
+  text-decoration: none;
+  color: #2F4F4F;
+}
+
+header {
+  padding-top: 5px;
+}
+
+header .header-logo {
+  display: block;
+  width: 190px;
+  height: 35px;
+  background: url("../04 img/00 global/logo.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 0 auto;
+}
+
+header .header-navbar {
+  width: 600px;
+  background: #0074D9;
+  text-align: center;
+  padding: 8px 0px;
+  margin: 0 auto;
+  margin-top: 5px;
+  border: 1px solid #D3D3D3;
+}
+
+header .header-navbar a {
+  margin: 0px 5px;
+  color: white;
+}
+
+header .header-navbar a:hover {
+  color: #333333;
+}
+
+.footer-contacts {
+  width: 600px;
+  background: #0074D9;
+  text-align: center;
+  padding: 5px 0px;
+  padding-bottom: 3px;
+  margin: 0 auto;
+  margin-top: 5px;
+  border: 1px solid #D3D3D3;
+  color: white;
+}
+
+.footer-contacts-intro {
+  margin-bottom: 5px;
+}
+
+.footer-contacts a {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  margin: 0px 10px;
+}
+
+.footer-contacts a:hover {
+  transform: scale(1.1);
+}
+
+.footer-container {
+  width: 370px;
+  margin: 0 auto;
+  margin-top: 5px;
+  padding: 10px;
+  background: white;
+  border: 1px solid #D3D3D3;
+}
+
+.footer-image {
+  width: 100%;
+  height: 100px;
+  background: url("../04 img/00 global/footer.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.fbicon {
+  background: url("../04 img/00 global/fb.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.yticon {
+  background: url("../04 img/00 global/yt.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.malicon {
+  background: url("../04 img/00 global/mal.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+main {
+  width: 600px;
+  background: white;
+  margin: 0 auto;
+  margin-top: 5px;
+  text-align: center;
+  border: 1px solid #D3D3D3;
+  padding: 5px 0px;
+}
+
+main .main-opening {
+  font-size: 60px;
+  font-weight: bold;
+  letter-spacing: -3px;
+  line-height: 53px;
+  color: #1F1F1F;
+}
+
+main .main-kicker {
+  margin-bottom: 5px;
+}
+
+main .main-button {
+  display: inline-block;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  background: #0074D9;
+  padding: 8px 25px;
+  border: 1px solid #b3b3b3;
+  border-radius: 5px;
+  transition: all 0.2s ease-in-out;
+}
+
+main .main-button:hover {
+  background: white;
+  color: #0074D9;
+}
+
+.intro-container {
+  width: 600px;
+  background: white;
+  margin: 0 auto;
+  margin-top: 5px;
+  padding: 5px 0px;
+  border: 1px solid #D3D3D3;
+}
+
+.intro-opening {
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  color: black;
+}
+
+.intro-video iframe {
+  display: block;
+  margin: 0 auto;
+}
+
+.intro-introduction {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.intro-infoimage {
+  width: 140px;
+  height: 140px;
+  background: url("../04 img/01 home/profile.jpg");
+  background-size: cover;
+  background-position: center;
+  margin: 0 auto;
+  margin-top: 5px;
+  border-radius: 50%;
+}
+
+.intro-infoname {
+  text-align: center;
+  margin-top: 5px;
+  font-weight: bold;
+}
+
+.intro-infolink {
+  display: block;
+  text-align: center;
+  margin-top: 5px;
+  color: #0074D9;
+  transition: all 0.2s ease-in-out;
+}
+
+.intro-infolink:hover {
+  color: #40a6ff;
+}
+
+.pagination-container {
+  text-align: center;
+  margin: 8px;
+}
+
+.pagination-jumper {
+  background: white;
+  padding: 3px;
+  margin: 0px 1px;
+  border: 1px solid #D3D3D3;
+  transition: all 0.2s ease-in-out;
+}
+
+.pagination-jumper:hover {
+  background: #0074D9;
+  color: white;
+}
+
+.list-container {
+  width: 600px;
+  background: white;
+  margin: 0 auto;
+  margin-top: 5px;
+  border: 1px solid #D3D3D3;
+  text-align: center;
+  padding: 30px 0px;
+}
+
+.list-title {
+  display: inline-block;
+  max-width: 500px;
+  border: 1px solid #D3D3D3;
+  padding: 3px 10px;
+  transition: all 0.2s ease-in-out;
+  background: white;
+}
+
+.list-title:hover {
+  background: #0074D9;
+  color: white;
+}
+
+.andyouthought {
+  background: url("../04 img/02 animelist/andyouthought.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.angelbeats {
+  background: url("../04 img/02 animelist/angelbeats.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.anohana {
+  background: url("../04 img/02 animelist/anohana.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.blueliterature {
+  background: url("../04 img/02 animelist/blueliterature.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.btooom {
+  background: url("../04 img/02 animelist/btooom.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.cowboybebop {
+  background: url("../04 img/02 animelist/cowboybebop.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.deathnote {
+  background: url("../04 img/02 animelist/deathnote.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.denpateki {
+  background: url("../04 img/02 animelist/denpateki.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.fatezero {
+  background: url("../04 img/02 animelist/fatezero.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.fullmetal {
+  background: url("../04 img/02 animelist/fullmetal.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.gintama {
+  background: url("../04 img/02 animelist/gintama.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.goldenboy {
+  background: url("../04 img/02 animelist/goldenboy.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.hunterxhunter {
+  background: url("../04 img/02 animelist/hunterxhunter.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.kidsontheslope {
+  background: url("../04 img/02 animelist/kidsontheslope.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.konosuba {
+  background: url("../04 img/02 animelist/konosuba.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.monogatari {
+  background: url("../04 img/02 animelist/monogatari.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.ojisannolamp {
+  background: url("../04 img/02 animelist/ojisannolamp.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.oneouts {
+  background: url("../04 img/02 animelist/oneouts.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.onepunchman {
+  background: url("../04 img/02 animelist/onepunchman.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.oregairu {
+  background: url("../04 img/02 animelist/oregairu.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.oreimo {
+  background: url("../04 img/02 animelist/oreimo.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.overlord {
+  background: url("../04 img/02 animelist/overlord.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.prisonschool {
+  background: url("../04 img/02 animelist/prisonschool.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.samurai7 {
+  background: url("../04 img/02 animelist/samurai7.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.samuraichamploo {
+  background: url("../04 img/02 animelist/samuraichamploo.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.shigurui {
+  background: url("../04 img/02 animelist/shigurui.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.soredemomachiwa {
+  background: url("../04 img/02 animelist/soredemomachiwa.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.steinsgate {
+  background: url("../04 img/02 animelist/steinsgate.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.thedevilis {
+  background: url("../04 img/02 animelist/thedevilis.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.theworldgodonly {
+  background: url("../04 img/02 animelist/theworldgodonly.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.timeofeve {
+  background: url("../04 img/02 animelist/timeofeve.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.toradora {
+  background: url("../04 img/02 animelist/toradora.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.usagidrop {
+  background: url("../04 img/02 animelist/usagidrop.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.welcometothenhk {
+  background: url("../04 img/02 animelist/welcometothenhk.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.working {
+  background: url("../04 img/02 animelist/working.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.yondemasuasazelsan {
+  background: url("../04 img/02 animelist/yondemasuasazelsan.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.hero-container {
+  width: 600px;
+  height: 85px;
+  margin: 0 auto;
+  margin-top: 5px;
+}
+
+.info-container {
+  width: 590px;
+  background: white;
+  margin: 0 auto;
+  margin-top: 5px;
+  padding: 5px;
+  padding-bottom: 2px;
+}
+
+.info-detail {
+  margin-bottom: 3px;
+}
+
+.info-detail span {
+  font-weight: bold;
+}
+
+.summary-container {
+  width: 590px;
+  background: white;
+  margin: 0 auto;
+  margin-top: 5px;
+  padding: 5px;
+}
+
+.summary-container span {
+  font-weight: bold;
+}
+
+.rating-container {
+  width: 600px;
+  background: white;
+  margin: 0 auto;
+  margin-top: 5px;
+  text-align: center;
+  padding: 5px 0px;
+  font-size: 15px;
+}
+
+.rating-container span {
+  font-weight: bold;
+}
+
+#activenav {
+  color: #333333;
+}
+
+#activenav-bot {
+  color: #333333;
+}
+
+.clearfix:before {
+  content: " ";
+  display: table;
+}
+
+.clearfix:after {
+  content: " ";
+  display: table;
+  clear: both;
+}
